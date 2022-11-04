@@ -1,0 +1,10 @@
+**/.DS_Store
+**/.next
+**/dist
+**/node_modules
+
+.idea
+.vscode
+coverage
+
+# cypress
