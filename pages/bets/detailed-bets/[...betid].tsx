@@ -21,7 +21,7 @@ import {
 } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
-import { BettingData } from '../../../Constants/BettingData'
+import { BettingData } from '../../../constants/BettingData'
 import '@fontsource/nunito'
 import '@fontsource/inter'
 import SquidRoundInfo from '../../../components/squid/SquidRoundInfo'
