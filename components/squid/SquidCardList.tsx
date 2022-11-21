@@ -1,7 +1,7 @@
 import { Grid } from '@chakra-ui/react'
 import React from 'react'
 
-import { SquidData } from '../../Constants/SquidData'
+import { SquidData } from '../../constants/SquidData'
 import SquidCard from './SquidCard'
 
 const SquidCardList = () => {

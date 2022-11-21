@@ -6,10 +6,10 @@ import NavLink from './Navlink'
 import Account from '../Account'
 
 const Header = () => {
-  const LinkArry = [
+  const LinkArray = [
     {
       name: 'Home',
-      href: '/',
+      href: 'https://ultibets.vercel.app/',
     },
     {
       name: 'Bets',
@@ -30,7 +30,7 @@ const Header = () => {
     },
     {
       name: 'Merch Store',
-      href: '/merch-store',
+      href: 'https://ultibetsmerchstore.vercel.app/merch-store',
     },
     {
       name: 'FAQ',
@@ -122,7 +122,7 @@ const Header = () => {
                 ml={['unset', 'unset', '0px', '90px']}
                 alignItems={['unset', 'unset', 'center', 'center']}
               >
-                {LinkArry.map((item, index) => (
+                {LinkArray.map((item, index) => (
                   <NavLink key={index} name={item.name} href={item.href} />
                 ))}
               </Flex>
@@ -146,7 +146,7 @@ const Header = () => {
         >
           {' '}
           <Flex direction={'column'}>
-            {LinkArry.map((item, index) => (
+            {LinkArray.map((item, index) => (
               <NavLink
                 key={index}
                 href={item.href}
